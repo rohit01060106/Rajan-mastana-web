@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rajan Mastana — Class 11 student and web development learner.">
+<title>Rajan Mastana | Student Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="#home">
+    <img src="rajan.jpg" alt="Rajan Mastana">
+    <span><b>Rajan</b> Mastana<small>STUDENT &nbsp;|&nbsp; WEB DEVELOPER</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+    <h1>Hi, I'm <span>Rajan Mastana</span></h1>
+    <h2>Student & Web Development Learner</h2>
+    <p class="lead">I am a Class 11 student passionate about technology, web designing and creating modern digital projects.</p>
+    <div class="buttons">
+      <a class="btn gold" href="#projects">View My Projects →</a>
+      <a class="btn outline" href="#contact">Contact Me ↗</a>
+    </div>
+    <div class="tech"><span>▣ MS Office</span><span>▣ HTML</span><span>▣ CSS</span><span>▣ JavaScript</span></div>
+  </div>
+  <div class="hero-photo"><div class="photo-frame"><img src="rajan.jpg" alt="Rajan Mastana"></div><div class="signature">Rajan Mastana</div></div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2></div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I am <strong>Rajan Mastana</strong>, currently pursuing <strong>+1</strong> at S.G.N. Public Senior Secondary School, Chourmastpur, Ambala.</p>
+      <p>I also completed my <strong>CCWDES course from HIIT Ambala City</strong>, where I learned MS Office, HTML, CSS and JavaScript.</p>
+      <p>My goal is to keep learning, build useful websites and improve my practical web-development skills.</p>
+    </div>
+    <div class="cards">
+      <article><i>🎓</i><h3>Student</h3><p>+1 at S.G.N. Public Senior Secondary School, Chourmastpur, Ambala.</p></article>
+      <article><i>⌘</i><h3>Web Development</h3><p>CCWDES course from HIIT Ambala City with practical HTML, CSS and JavaScript learning.</p></article>
+      <article><i>◎</i><h3>My Goal</h3><p>To create creative, attractive and useful websites while developing my technical skills.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section dark">
+  <div class="section-heading center"><p class="eyebrow">MY TOOLKIT</p><h2>My <span>Skills</span></h2></div>
+  <div class="skills-grid">
+    <div class="skill"><div><b>MS Office</b><span>85%</span></div><div class="bar"><i style="width:85%"></i></div></div>
+    <div class="skill"><div><b>HTML</b><span>90%</span></div><div class="bar"><i style="width:90%"></i></div></div>
+    <div class="skill"><div><b>CSS</b><span>85%</span></div><div class="bar"><i style="width:85%"></i></div></div>
+    <div class="skill"><div><b>JavaScript</b><span>75%</span></div><div class="bar"><i style="width:75%"></i></div></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-heading"><p class="eyebrow">MY WORK</p><h2>Minor <span>Projects</span></h2></div>
+  <div class="project-grid">
+    <article class="project">
+      <div class="project-number">01</div><h3>Student Registration Form</h3>
+      <p>A responsive student registration form with personal details, class, gender, course and address fields.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <a class="project-btn" href="projects/student-registration.html">Open Project →</a>
+    </article>
+    <article class="project">
+      <div class="project-number">02</div><h3>Digital Calculator</h3>
+      <p>A functional calculator supporting arithmetic operations, decimals, percentage, sign change and keyboard input.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <a class="project-btn" href="projects/calculator.html">Open Project →</a>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="section dark">
+  <div class="section-heading center"><p class="eyebrow">LET'S CONNECT</p><h2>Contact <span>Me</span></h2></div>
+  <form id="contactForm" class="contact-form">
+    <input id="name" type="text" placeholder="Your Name" required>
+    <input id="subject" type="text" placeholder="Subject" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button class="btn gold" type="submit">Send on WhatsApp →</button>
+    <p class="hint">Add your WhatsApp number in <b>script.js</b> before using this button.</p>
+  </form>
+</section>
+</main>
+
+<footer>© 2026 Rajan Mastana • Student Portfolio</footer>
+<script src="script.js"></script>
+</body>
+</html>

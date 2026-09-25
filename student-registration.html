@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Student Registration Form | Rajan Mastana</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:#080808;color:#fff;font-family:Arial,sans-serif;padding:30px;display:flex;justify-content:center;align-items:center}.box{width:min(760px,100%);background:#12120f;border:1px solid #d4af37;border-radius:18px;padding:32px;box-shadow:0 15px 50px #000}.box h1{text-align:center;color:#d4af37;margin:0}.sub{text-align:center;color:#aaa;margin:8px 0 28px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}label{display:block;color:#d4af37;font-weight:bold;margin-bottom:6px}input,select,textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #444;background:#080808;color:#fff}textarea{min-height:110px}.full{grid-column:1/-1}.actions{text-align:center;margin-top:22px}button,a{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:bold;text-decoration:none;cursor:pointer}button{border:0;background:#d4af37;color:#111}.back{margin-left:8px;color:#fff;border:1px solid #555}.success{display:none;text-align:center;color:#8fda9a;margin-top:15px}@media(max-width:600px){.grid{grid-template-columns:1fr}.full{grid-column:auto}}
+</style></head><body><div class="box"><h1>Student Registration Form</h1><p class="sub">Rajan Mastana — Minor Project</p>
+<form id="form"><div class="grid">
+<div><label>Full Name</label><input required></div><div><label>Father's Name</label><input required></div>
+<div><label>Email</label><input type="email" required></div><div><label>Phone Number</label><input type="tel" required></div>
+<div><label>Class</label><select required><option value="">Select</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option></select></div>
+<div><label>Gender</label><select required><option value="">Select</option><option>Male</option><option>Female</option><option>Other</option></select></div>
+<div class="full"><label>Course / Stream</label><input></div><div class="full"><label>Address</label><textarea required></textarea></div>
+</div><div class="actions"><button>Register</button><a class="back" href="../index.html">Back to Portfolio</a></div><p id="success" class="success">Registration submitted successfully!</p></form></div>
+<script>document.getElementById("form").addEventListener("submit",e=>{e.preventDefault();document.getElementById("success").style.display="block";e.target.reset()})</script></body></html>
