@@ -2,7 +2,7 @@ const menu = document.querySelector(".menu-toggle");
 const navbar = document.querySelector(".navbar");
 if (menu) menu.addEventListener("click", () => navbar.classList.toggle("open"));
 
-const whatsappNumber = "+91 8053061730"; // Replace with your WhatsApp number, without +, spaces or dashes.
+const whatsappNumber = "918053061730"; // Replace with your WhatsApp number, without +, spaces or dashes.
 
 document.getElementById("contactForm").addEventListener("submit", function(e){
   e.preventDefault();
